@@ -6,5 +6,6 @@ class CreateWorkers < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+    validates :name presence:true
   end
 end
